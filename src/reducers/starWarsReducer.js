@@ -18,6 +18,7 @@ export const charsReducer = (state = initialState, action) => {
         return {
           ...state,
           isLoading: false,
+          fetching: false,
           errorMessage: null,
           characters: characters
         }
